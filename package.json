@@ -1,0 +1,30 @@
+{
+  "name": "menudo",
+  "version": "1.0.0",
+  "description": "What's for lunch at the #Cloud cantine?",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/usmonster/menudo.git"
+  },
+  "keywords": [
+    "slack",
+    "menu",
+    "cantine",
+    "timechef"
+  ],
+  "author": "usmonster (https://github.com/usmonster)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/usmonster/menudo/issues"
+  },
+  "homepage": "https://github.com/usmonster/menudo#readme",
+  "dependencies": {
+    "@slack/client": "^4.8.0",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
